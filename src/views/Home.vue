@@ -2,7 +2,6 @@
   <div class="home">
     <div class="hero-banner">
       <div class="hero-content">
-        <img src="/images/logo.png" alt="ddgotobuy Logo" class="logo">
         <h1>Welcome to ddgotobuy</h1>
         <p>Your One-Stop Shop for Quality Products in Pakistan</p>
         <router-link to="/products" class="btn btn-primary">Shop Now</router-link>
@@ -108,7 +107,7 @@ export default {
 }
 
 .hero-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/hero-banner.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://placehold.co/1200x400?text=Hero+Banner');
   background-size: cover;
   background-position: center;
   color: white;
